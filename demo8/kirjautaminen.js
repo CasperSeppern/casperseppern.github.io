@@ -13,7 +13,6 @@ function onkoKirjautanut(){
 }
 
 function kirjaudu(){
-    document.getElementById("kirjaudu ulos").style.display="none";
     localStorage.setItem("nimi", document.getElementById("nimi").value);
     localStorage.setItem("kirjautunut", "kylla")
     
