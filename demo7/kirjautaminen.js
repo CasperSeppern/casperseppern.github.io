@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", onkoKirjautanut);
 function onkoKirjautanut(){
     let kirjautanut = 'kylla';
     if(kirjautanut === 'kylla'){
-       document.getElementById('tervetulo_teksti').textContent += localStorage.getItem("nimi");
+       document.getElementById("tervetulo_teksti").textContent += localStorage.getItem("nimi");
     }
 }
 
